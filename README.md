@@ -5,9 +5,9 @@ This project implements a Sentence Transformer-based model for improving search 
 ## Prerequisites
 Google Colab Setup:
 
-1. * Create a new Colab notebook.
+1. **Create a new Colab notebook**.
 
-Install required libraries:
+2. **Install required libraries**:
 
 ```
 Bash
