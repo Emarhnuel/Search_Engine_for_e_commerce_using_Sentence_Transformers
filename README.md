@@ -2,14 +2,14 @@
 
 This project implements a Sentence Transformer-based model for improving search engine performance in an e-commerce setting. It leverages the KDD Cup 22 dataset for training and evaluation.
 
-Prerequisites
+## Prerequisites
 Google Colab Setup:
 
-Create a new Colab notebook.
+1. * Create a new Colab notebook.
 
 Install required libraries:
 
-Bash
 ```
+Bash
 !pip install transformers datasets tensorflow tensorflow-probability
 ```
