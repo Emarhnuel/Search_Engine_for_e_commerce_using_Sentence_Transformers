@@ -10,8 +10,6 @@ Google Colab Setup:
 2. **Install required libraries**:
 
 ```
-Bash
-
 !pip install transformers datasets tensorflow tensorflow-probability
 ```
 
@@ -20,16 +18,12 @@ Bash
 1. **Login to aicrowd-cli**:
 
 ```
-Bash
-
 !aicrowd login
 
 ```
 
 2. **Download the KDD Cup 22 dataset**:
 ```
-Bash
-
 !aicrowd dataset download -c esci-challenge-for-improving-product-search
 ```
 
@@ -44,21 +38,15 @@ Bash
 # Usage
 1. **Run data preparation**:
 ```
-Bash
-
 !python data_preparation.py
 ```
 
 2. **Train the model:**
 ```
-Bash
-
 !python model.py
 ```
 
 3. **Perform product search inference:**
 ```
-Bash
-
 !python inference.py
 ```
